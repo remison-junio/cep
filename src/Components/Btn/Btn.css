@@ -1,0 +1,15 @@
+.btn {
+	border: 1px solid rgba(0, 0, 0, .3);
+	font-size: 17px;
+	background: #1ab9a7;
+	color: white;
+	margin: 10px 0;
+	padding: 7px 20px;
+	cursor: pointer;
+}
+
+@media (min-width: 768px) {
+	.btn {
+		grid-column: 4 / 7;
+	}
+}
